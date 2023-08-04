@@ -1,5 +1,5 @@
 {
-  "name": "react-chatui",
+  "name": "@fliklab/react-chatui",
   "version": "0.0.1",
   "module": "dist/index.js",
   "main": "dist/index.js",
