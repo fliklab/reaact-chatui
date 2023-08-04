@@ -1,4 +1,4 @@
-import Chat from "./Chat";
-import ChatUI from "./ChatUI";
+import Chat from "./lib/Chat";
+import ChatUI from "./lib/ChatUI";
 
 export { Chat, ChatUI };
