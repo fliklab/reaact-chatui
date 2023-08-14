@@ -1,6 +1,6 @@
 {
   "name": "@fliklab/react-chatui",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "private": false,
@@ -45,5 +45,6 @@
   "devDependencies": {
     "@babel/cli": "^7.22.9",
     "@babel/preset-react": "^7.22.5"
-  }
+  },
+  "type": "module"
 }
