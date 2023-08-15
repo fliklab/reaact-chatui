@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
+    siteTitle: `React ChatUI Docs`,
+    defaultTitle: `React ChatUI Docs`,
+    siteTitleShort: `React ChatUI Docs`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
     siteUrl: `https://rocketdocs.netlify.app`,
-    siteAuthor: `@jpedroschmitz`,
+    siteAuthor: `@fliklab`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
-    basePath: `/`,
+    basePath: `/react-chatui`,
   },
   plugins: [
     {
@@ -19,7 +19,7 @@ module.exports = {
         docsPath: `src/docs`,
         homePath: `src/home`,
         yamlFilesPath: `src/yamlFiles`,
-        repositoryUrl: `https://github.com/jpedroschmitz/rocketdocs`,
+        repositoryUrl: `https://fliklab.github.io/react-chatui`,
         baseDir: `examples/gatsby-theme-docs`,
         gatsbyRemarkPlugins: [],
       },
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocket Docs`,
-        short_name: `Rocket Docs`,
+        name: `React ChatUI  Docs`,
+        short_name: `React ChatUI  Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://fliklab.github.io/react-chatui`,
       },
     },
     `gatsby-plugin-offline`,
